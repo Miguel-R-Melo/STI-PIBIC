@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 2.3em;
+	background: rgb(31, 42, 255);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+
+nav{
+	margin: 0 auto;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 3em;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+.icone{
+	width: 1em;
+	height: 1em;
+	display: inline;
+}
+
+.main{
+	width: 100%;
+	height: 93vh;
+	background: black;
+	margin: 0 auto;
+}
+
+.wrapper{
+	max-width: 760px;
+	height: 10em;
+	margin: 0em 14em;
+	background: black;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.days-week{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.number-days{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.days-week span{
+	color: white;
+	display: inline-block;
+	width: 14.2%;
+	margin: 5px 0;
+}
+
+
+.number-days span{
+		display: inline-block;
+		width: 14.2%;
+		color: #555;
+		margin:;
+}
+
+.mes-anterior{
+		opacity: 0.5;
+}
+
+.revisão{
+	position: absolute;
+	width: 30vh;
+	height: 93vh;
+	background: #3D407A;
+	text-align: center;
+	color: white;
+}
+
+.lista-revisao{
+		width: 100%;
+		height: 6em;
+		margin: 0 auto;
+}
+

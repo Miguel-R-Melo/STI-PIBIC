@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="estilos/index.css" type="text/css">
+		<title>STI</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div style="display: inline;">
+					<ul>
+						<li>
+							<a href="páginas/materias.html">
+								<img class="icone" src="mídias/ícones/matérias.png"> Matérias
+							</a>
+						<li>
+							<a href="páginas/forum.html">
+
+							<img class="icone" src="mídias/ícones/fórum.png"> Fórum
+
+							</a>
+						<li>
+							<a href="páginas/desempenho.html">
+								<img class="icone" src="mídias/ícones/gráfico.png"> Desempenho
+							</a>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<div class="main">
+
+				<div class="revisão">
+					<p style="display: block;">Revisar</p><br>
+					<div class="lista-revisao">
+						<p>
+							Matéria 01<br>
+							Matéria 02<br>
+							Matéria 03<br>
+							Matéria 04<br>
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper">
+					<div class="days-week">
+						<span>Segunda</span>
+						<span>Terça</span>
+						<span>Quarta</span>
+						<span>Quinta</span>
+						<span>Sexta</span>
+						<span>Sábado</span>
+						<span>Domingo</span>
+					</div>
+
+					<div class="number-days">
+						<span class="mes-anterior"></span>
+						<span  class="mes-anterior"></span>
+					</div>
+
+				</div>
+
+			</div>
+		</main>
+
+		<script type="text/javascript">
+			
+			let el = document.querySelector('.number-days');
+			for (i = 1; i <= 31; i++){
+				el.innerHTML += '<span>' + i + '</span>'; 
+			}
+
+		</script>
+	</body>
+</html>
+
