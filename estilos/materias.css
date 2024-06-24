@@ -53,12 +53,16 @@ a{
 
 .case{
 	width: 10em;
-	height: 6em;
+	height: 6.1em;
 	border-radius: 10px;
 	background: white;
 	display: inline-block;
 	margin: 0em 2em 2em 0em;
 	text-align: center;
+}
+
+.case a {
+	color: black;
 }
 
 .img-materia{
